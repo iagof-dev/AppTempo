@@ -26,7 +26,7 @@ namespace AppTempo.Services
 
         public static async Task<Tempo> GetPrevisaoDoTempo(string cidade)
         {
-            string appID = "3a9759666cf49bbf369b94808d332902";
+            string appID = "";
 
             string query = $"http://api.openweathermap.org/data/2.5/weather?q={cidade}&units=metric&appid={appID}";
 
